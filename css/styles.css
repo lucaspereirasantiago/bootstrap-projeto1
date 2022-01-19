@@ -1,0 +1,77 @@
+/* ESTILOS GERAIS */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.row{
+    margin: 0;
+}
+.container{
+    padding: 70px 0;
+}
+h2, p{
+    color: #FFF;
+}
+
+/*Barra de Navegação*/
+header, .navbar{
+    background-color: #FFD39B;
+}
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#logo{
+    width: 100px; /*width é a largura*/
+}
+.navbar-brand{
+    padding: 0;
+}
+.navbar-brand, a{
+    padding: 0;
+    color: #FFF;
+}
+.navbar-brand:hover{
+    color: #FFF;
+}
+#navbar-links a{
+    color: #FFF;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem .8rem;
+}
+
+/* SLIDER */
+.container-fluid{
+    padding: 0;
+}
+#mainSlider .carousel-inner, #mainSlider .carousel-item{
+    height: 90vh;
+}
+#mainSlider .carousel-caption{
+    top: 30%;
+}
+#mainSlider .carousel-caption h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+    padding-top: 70px;
+    padding-bottom: 90px;
+}
+.main-btn{
+    background-color: #CDAA7D;
+    color: #FFF;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+.main-btn:hover{
+    background-color: #FF6A6A;
+    text-decoration: none;
+    color: #FFF;
+}
+.carousel-indicators .active{
+    background-color: #CDAA7D;
+}
