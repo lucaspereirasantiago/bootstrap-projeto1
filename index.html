@@ -44,13 +44,25 @@
                      aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
                      <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
-                        <div class="navbar-nav">
-                            <a class="nav-item nav-link" id="home-menu">Home</a>
-                            <a class="nav-item nav-link" id="products-menu">Produtos</a>
-                            <a class="nav-item nav-link" id="company-menu">A Empresa</a>
-                            <a class="nav-item nav-link" id="founder-menu">Fundadora</a>
-                            <a class="nav-item nav-link" id="contact-menu">Contato</a>
+                   <div class="container-fluid">
+                        <div class="row">
+                            <nav id="nav-search" class="navbar">
+                                <form class="form-inline">
+                                  <input class="form-control mr-sm-2" type="search" placeholder="Pesquise na loja" aria-label="Search">
+                                  <button class="btn btn btn-outline-danger my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+                                </form>
+                              </nav>
+                        </div>
+                       <div class="row">
+                            <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                                <div class="navbar-nav">
+                                    <a class="nav-item nav-link" id="home-menu">Home</a>
+                                    <a class="nav-item nav-link" id="company-menu">A Empresa</a>
+                                    <a class="nav-item nav-link" id="products-menu">Produtos</a>
+                                    <a class="nav-item nav-link" id="founder-menu">Fundadora</a>
+                                    <a class="nav-item nav-link" id="contact-menu">Contato</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </nav>
@@ -58,7 +70,7 @@
         </header>
 
         <main>
-            <div id="mainSlider" class="carousel slide" data-ride="carousel">
+            <div id="mainSlider" class="carousel slide" data-ride="carousel"> <!--CAROUSEL AREA-->
                 <ol class="carousel-indicators">
                     <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
                     <li data-target="#mainSlider" data-slide-to="1"></li>
@@ -96,6 +108,31 @@
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
+                </div>
+            </div>
+            <div id="company-area"> <!--COMPANY AREA-->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="main-title">Sobre a Amandita Doces</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img class="img-fluid" src="img/company-img.jpg" alt="Amandita Doces">
+                        </div>
+                        <div class="col-md-6">
+                            <h3 class="about-title">Tornando sua vida mais doce e alegre</h3>
+                            <p>Desde 2015, nos dedicamos a fazer os melhores doces da região.<br/>
+                            Com receitas inovadores, vamos cada vez mais conquistando corações apaixonados por doces.
+                            Venha você também conhecer nossos produtos e surpreenda-se.</p><br/>
+                            <ul id="about-list">
+                                <li><i class="fas fa-check"></i> Qualidade garantida</li>
+                                <li><i class="fas fa-check"></i> Melhor preço da região</li>
+                                <li><i class="fas fa-check"></i> Rápida entrega</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
