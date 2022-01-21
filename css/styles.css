@@ -89,13 +89,13 @@ header, .navbar{
 /*COMPANY AREA*/
 .main-title{
     text-align: center;
-    color: #CD6839;
+    color: #000;
     margin: 0 0 70px 0;
     font-size: 35px;
 }
 .main-title::after{
     content: "";
-    border-top: 2px solid #CD6839;
+    border-top: 2px solid #000;
     width: 15%;
     position: absolute;
     top: 60px;
