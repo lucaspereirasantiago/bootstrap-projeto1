@@ -49,6 +49,9 @@ header, .navbar{
 #nav-search input, #nav-search button{
     height: 35px;
 }
+#nav-search input{
+    border-color: #CD6839;
+}
 
 /* SLIDER */
 .container-fluid{
