@@ -90,6 +90,9 @@ header, .navbar{
 }
 
 /*COMPANY AREA*/
+#company-area{
+    background-color: #FFFACD;
+}
 .main-title{
     text-align: center;
     color: #000;
@@ -122,4 +125,20 @@ header, .navbar{
 #about-list i{
     color: #CD6839;
     margin-right: 10px;
+}
+
+/*PRODUCTS AREA*/
+#products-area a:hover{
+    background-color: #CD6839;
+    transition: .5s;
+    border-color: #CD6839;
+}
+.card-body h5{
+    margin-bottom: 25px;
+}
+.card-body p{
+    margin-bottom: 10px;
+}
+.products-section{
+    margin-bottom: 7%;
 }
