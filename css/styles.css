@@ -142,3 +142,9 @@ header, .navbar{
 .products-section{
     margin-bottom: 7%;
 }
+
+/*FOUDER AREA*/
+#founder-area{
+    background-color: #FFFACD;
+    margin-top: -5%;
+}
