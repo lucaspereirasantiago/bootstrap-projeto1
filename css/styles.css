@@ -187,3 +187,65 @@ header, .navbar{
     transition: .5s;
     border-color: #8B1A1A;
 }
+
+/*CONTACT-AREA*/
+#contact-area{
+    background-color: #8B1A1A;
+}
+.footer-title{
+    text-align: center;
+    color: #FFFACD;
+    margin: 0 0 70px 0;
+    font-size: 35px;
+}
+.footer-title::after{
+    content: "";
+    border-top: 2px solid #FFFACD;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+}
+.contact-title{
+    color: #FFFACD;
+}
+#contact-area li{
+    color: #FFFACD;
+    list-style: none;
+    padding-left: 0;
+}
+.contact-box i{
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+.contact-box ul{
+    margin-left: 90px;
+    margin-top: 30px;
+}
+.pay-title{
+    text-align: center;
+    color: #FFFACD;
+    margin: 0 0 70px 0;
+    font-size: 35px;
+    margin-top: 80px;
+}
+.pay-title::after{
+    content: "";
+    border-top: 2px solid #FFFACD;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%; 
+    margin-top: 80px;
+}
+.payimg1{
+    width: 40%;
+    margin-left: 70%;
+    margin-top: -30px;
+}
+.payimg2{
+    width: 25%;
+    margin-top: -5px;
+    margin-left: 2%;
+    margin-top: -35px;
+}
