@@ -148,3 +148,37 @@ header, .navbar{
     background-color: #FFFACD;
     margin-top: -5%;
 }
+
+/*PROMOTION AREA*/
+#promotion-area{
+    height: 300px;
+}
+#promotion-area .container-fluid, #promotion-area .row{
+    height: 100%;
+}
+#promotion-area .promotion-box{
+    text-align: center;
+    padding: 70px 50px;
+}
+#ebook-img img{
+    width: 55%;
+    margin-top: -13%;
+}
+.promotion-box h4{
+    color: #FFF;
+    margin-left: -20%;
+    margin-top: -10px;
+    font-size: 35px;
+}
+#email-input{
+    margin-left: -25%;
+    margin-top: 20px;
+    padding: 18px 10px;
+    border: 1px solid #8B1A1A;
+    width: 70%;
+    box-sizing: border-box;
+    display: inline;
+}
+#promotion-btn{
+    margin-top: -4px; 
+}
