@@ -182,3 +182,8 @@ header, .navbar{
 #promotion-btn{
     margin-top: -4px; 
 }
+#promotion-btn:hover{
+    background-color: #8B1A1A;
+    transition: .5s;
+    border-color: #8B1A1A;
+}
