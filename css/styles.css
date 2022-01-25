@@ -219,7 +219,7 @@ header, .navbar{
     margin-bottom: 15px;
 }
 .contact-box ul{
-    margin-left: 90px;
+    margin-left: 100px;
     margin-top: 30px;
 }
 .pay-title{
@@ -239,8 +239,8 @@ header, .navbar{
     margin-top: 80px;
 }
 .payimg1{
-    width: 40%;
-    margin-left: 70%;
+    width: 38%;
+    margin-left: 72%;
     margin-top: -30px;
 }
 .payimg2{
@@ -248,4 +248,25 @@ header, .navbar{
     margin-top: -5px;
     margin-left: 2%;
     margin-top: -35px;
+}
+
+/*COPYRIGHT AREA*/
+#copyright-area{
+    background-color: #CDAA7D;
+}
+#copyright-area .container{
+    padding: 10px 0;
+    text-align: center;
+}
+#copyright-area .container p{
+    margin-bottom: 0;
+}
+#copyright-area .container a{
+    font-weight: bold;
+    color: #8B1A1A;
+}
+#copyright-area .container a:hover{
+    text-decoration: none;
+    color: #104E8B;
+    transition: .2s;
 }
