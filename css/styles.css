@@ -44,7 +44,7 @@ header, .navbar{
     margin-left: -50px;
 }
 #nav-search input{
-    padding-right: 130px;
+    padding-right: 300px;
 }
 #nav-search input, #nav-search button{
     height: 35px;
@@ -269,4 +269,11 @@ header, .navbar{
     text-decoration: none;
     color: #104E8B;
     transition: .2s;
+}
+
+/*MOBILE*/
+@media (max-width: 768px){
+
+    /*GENERAL*/
+    
 }
