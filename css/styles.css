@@ -54,20 +54,20 @@ header, .navbar{
 }
 #nav-search input{
     padding-right: 200px;
-    border-color: #CD6839;
+    border-color: #CD0000;
     box-sizing: border-box;
 }
 #nav-search button{
     margin-left: -50px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-    background-color: #FF6A6A;
 }
 #nav-search button:hover{
     background-color: #CD0000;
+    transition: .2s;
 }
 .my-sm-0{
-    color: #FFF;
+    color: #CD0000;
 }
 
 /* SLIDER */
