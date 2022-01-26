@@ -280,11 +280,11 @@ header, .navbar{
 }
 #copyright-area .container a{
     font-weight: bold;
-    color: #8B1A1A;
+    color: #000;
 }
 #copyright-area .container a:hover{
     text-decoration: none;
-    color: #104E8B;
+    color: #EEE8CD;
     transition: .2s;
 }
 
