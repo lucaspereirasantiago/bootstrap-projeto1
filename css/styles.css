@@ -37,37 +37,11 @@ header, .navbar{
     padding: 1rem .8rem;
 }
 .navbar-nav{
-    margin-right: -50%;
+    margin-left: 50%;
 }
 .navbar-nav .nav-link{
     font-size: 20px;
     cursor: pointer;
-}
-#navbar-links .form-inline{
-    margin-left: -50px;
-}
-#nav-search input, #nav-search button{
-    height: 35px;
-}
-#nav-search .form-inline{
-    margin-left: -20px;
-}
-#nav-search input{
-    padding-right: 200px;
-    border-color: #CD0000;
-    box-sizing: border-box;
-}
-#nav-search button{
-    margin-left: -50px;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-}
-#nav-search button:hover{
-    background-color: #CD0000;
-    transition: .2s;
-}
-.my-sm-0{
-    color: #CD0000;
 }
 
 /* SLIDER */
@@ -286,23 +260,4 @@ header, .navbar{
     text-decoration: none;
     color: #CD0000;
     transition: .2s;
-}
-
-/*MOBILE*/
-@media (max-width: 768px){
-
-    /*GENERAL*/
-    #mainSlider .carousel-inner, #mainSlider .carousel-item{
-        height: auto;
-    }
-    #mainSlider .carousel-caption h2{
-        font-size: 28px;
-        margin-bottom: -30px;
-    }
-    .main-btn{
-        font-size: 13px;
-    }
-    #nav-search input{
-        padding-right: 0%;
-    }
 }
